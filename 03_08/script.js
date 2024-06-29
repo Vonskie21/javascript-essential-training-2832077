@@ -23,3 +23,10 @@ const backpack = {
 
 console.log("The backpack object:", backpack);
 console.log("The pocketNum value:", backpack.pocketNum);
+
+console.log(
+  "Left Strap:",
+  backpack.strapLength.left,
+  " Right Strap: ",
+  backpack.strapLength.right
+);
